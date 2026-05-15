@@ -1,0 +1,6 @@
+{
+  "name": "ebay-finder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "eBay 파인더 — 키워드 기반 상품 발굴 도구"
+}

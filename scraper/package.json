@@ -1,0 +1,16 @@
+{
+  "name": "ebay-finder-scraper",
+  "version": "0.1.0",
+  "description": "로컬 PC에서 실행하는 Terapeak 스크래퍼",
+  "type": "module",
+  "scripts": {
+    "login": "node src/login.js",
+    "scrape": "node src/run.js",
+    "test": "node src/run.js --dry-run"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.48.0"
+  }
+}
